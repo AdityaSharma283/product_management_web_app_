@@ -1,0 +1,16 @@
+{
+  "name": "product-management-app",
+  "version": "0.0.1",
+  "description": "A product management web application with React frontend and NestJS backend.",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "setup": "npm run install:backend && npm run install:frontend"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
